@@ -1,0 +1,66 @@
+.hero {
+  height: 100%;
+  padding: 30px 0;
+  &__inner {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  .autoContainer {
+    height: 100%;
+  }
+}
+.song {
+  padding: 32px 0;
+  height: 100%;
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    gap: 26px;
+    &-image {
+      width: calc(57% - 13px);
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+    &-tools {
+      width: calc(43% - 13px);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 15px;
+      justify-content: space-between;
+    }
+    &-box {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      gap: 16px;
+      h4 {
+        color: rgba($black, 0.6);
+      }
+    }
+    .button {
+      &--icoText {
+        margin-left: auto;
+      }
+    }
+  }
+  .autoContainer {
+    height: 100%;
+  }
+}
+.ico {
+  font-size: 18px;
+  color: inherit;
+}
